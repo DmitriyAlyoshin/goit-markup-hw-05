@@ -431,6 +431,31 @@ button {
   justify-content: space-between;
 }
 
+.projects .item {
+  position: relative;
+}
+
+.projects .item .title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  content: "";
+  margin-bottom: 0;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
 .projects .section-title {
   margin-bottom: 50px;
 }
@@ -488,6 +513,9 @@ button {
 }
 
 .team .social-networks {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   width: 44px;
   height: 44px;
 
@@ -529,6 +557,9 @@ button {
 }
 
 .clients .list .link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   display: flex;
   height: 92px;
   justify-content: center;
@@ -663,6 +694,8 @@ button {
 }
 
 .footer-mail.link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   color: var(--footer-contacts-color);
 }
 
@@ -702,6 +735,8 @@ button {
 }
 
 .page-footer .list-networks .icon-item {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   width: 44px;
   height: 44px;
 
