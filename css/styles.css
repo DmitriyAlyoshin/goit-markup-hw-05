@@ -627,6 +627,7 @@ button {
 }
 
 .page-footer .networks .icon-networks {
+  display: block;
   fill: currentColor;
 }
 
