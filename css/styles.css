@@ -558,7 +558,7 @@ button {
 .filtr .container.no-padding .list .item {
   display: flex;
   width: calc(100%-60px) / 3;
-  margin-right: 30px;
+  margin-right: 21px;
 }
 
 .filtr .container.no-padding .list .item:nth-child(3n) {
@@ -594,12 +594,19 @@ button {
 
   font-size: 16px;
   line-height: 1.88;
+  color: var(--primary-color);
 }
 
 .filtr .container.no-padding .item {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #eeeeee;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
 }
 
 .filtr .container.no-padding .list .item {
@@ -758,7 +765,7 @@ button {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 
-  opacity: 1;  
+  opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -778,7 +785,7 @@ button {
 
   transform: translate(-50%, -50%) rotate(0deg) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   width: 528px;
   max-width: 100%;
