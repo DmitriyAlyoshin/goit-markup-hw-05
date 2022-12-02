@@ -559,7 +559,7 @@ button {
 .filtr .container.no-padding .list .item {
   display: flex;
   width: calc(100%-60px) / 3;
-  margin-right: 25px;
+  margin-right: 21px;
 }
 
 .filtr .container.no-padding .list .item:nth-child(3n) {
@@ -632,9 +632,9 @@ button {
   display: flex;
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 0;
+  padding-top: 10px;
   padding-bottom: 0;
-  align-items: center;
+  
   background-color: var(--accent-portfolio-bg-color);
 
   transform: translateY(100%);
@@ -644,6 +644,8 @@ button {
   line-height: 1.56;
   color: var(--primary-white-color);
 }
+
+
 
 .filtr .container .item:hover .filter-overlay.text {
   transform: translateY(0);
