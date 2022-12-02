@@ -10,6 +10,7 @@
   --primary-black-color: #000000;
   --button-bgd-color: #f5f4fa;
   --networks-icon-color: #afb1b8;
+  --border-color: #eeeeee;
   --footer-networks-bgd-color: rgba(255, 255, 255, 0.1);
   --accent-portfolio-bg-color: rgba(33, 150, 243, 0.9);
 }
@@ -558,7 +559,7 @@ button {
 .filtr .container.no-padding .list .item {
   display: flex;
   width: calc(100%-60px) / 3;
-  margin-right: 21px;
+  margin-right: 25px;
 }
 
 .filtr .container.no-padding .list .item:nth-child(3n) {
@@ -598,15 +599,9 @@ button {
 }
 
 .filtr .container.no-padding .item {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #eeeeee;
-  border-left-width: 1px;
-  border-left-style: solid;
-  border-left-color: #eeeeee;
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: #eeeeee;
+  border-width: 0 1px 1px 1px;  
+  border-style: solid;
+  border-color: var(--border-color); 
 }
 
 .filtr .container.no-padding .list .item {
