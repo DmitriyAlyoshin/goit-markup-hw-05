@@ -632,8 +632,9 @@ button {
   display: flex;
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 10px;
+  padding-top: 0;
   padding-bottom: 0;
+  align-items: center;
   
   background-color: var(--accent-portfolio-bg-color);
 
@@ -812,4 +813,14 @@ button {
 
 .button-modal .item-icon {
   fill: currentColor;
+}
+
+.scroll-on {
+  pointer-events: none;
+}
+
+.disable-scroll {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
 }
