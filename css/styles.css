@@ -815,10 +815,6 @@ button {
   fill: currentColor;
 }
 
-.scroll-on {
-  pointer-events: none;
-}
-
 .disable-scroll {
   position: relative;
   overflow: hidden;
